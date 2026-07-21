@@ -1,0 +1,60 @@
+{
+    "relatorio_mensal": {
+        "2026-01": {
+            "quantidade": 5,
+            "total_credito": 6300.0,
+            "total_debito": 545.5,
+            "saldo": 5754.5,
+            "maior_valor": 3500.0,
+            "menor_valor": 45.0,
+            "media": 1369.1
+        },
+        "2026-02": {
+            "quantidade": 5,
+            "total_credito": 18500.0,
+            "total_debito": 619.9,
+            "saldo": 17880.1,
+            "maior_valor": 15000.0,
+            "menor_valor": 99.9,
+            "media": 3823.9800000000005
+        },
+        "2026-03": {
+            "quantidade": 5,
+            "total_credito": 15500.0,
+            "total_debito": 750.65,
+            "saldo": 14749.35,
+            "maior_valor": 12000.0,
+            "menor_valor": 99.9,
+            "media": 3250.13
+        },
+        "2026-04": {
+            "quantidade": 3,
+            "total_credito": 3200.0,
+            "total_debito": 295.3,
+            "saldo": 2904.7,
+            "maior_valor": 3200.0,
+            "menor_valor": 75.3,
+            "media": 1165.1000000000001
+        }
+    },
+    "transacoes_suspeitas": [
+        {
+            "id": "7",
+            "data": "2026-02-14 00:00:00",
+            "cliente_id": "CLI003",
+            "tipo": "credito",
+            "valor": 15000.0,
+            "descricao": "Transferência suspeita",
+            "categoria": "transferencia"
+        },
+        {
+            "id": "13",
+            "data": "2026-03-15 00:00:00",
+            "cliente_id": "CLI002",
+            "tipo": "credito",
+            "valor": 12000.0,
+            "descricao": "Venda de bem",
+            "categoria": "transferencia"
+        }
+    ]
+}
